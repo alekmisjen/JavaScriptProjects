@@ -41,6 +41,6 @@ Ensure you have the following:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/calendar-event-scheduler.git
-   cd calendar-event-scheduler
+   git clone https://github.com/alekmisjen/JavaScriptProjects.git
+   cd JavaScriptProjects
    ```
