@@ -1,4 +1,11 @@
-let events = [];
+function saveEventsToLocalStorage() {
+  localStorage.setItem("events", JSON.stringify(events));
+}
+function loadEventsFromLocalStorage() {
+  const storedEvents = localStorage.getItem("events");
+  return storedEvents ? JSON.parse(storedEvents) : [];
+}
+let events = loadEventsFromLocalStorage();
 
 const eventDateInput = document.querySelector("#eventDate");
 const eventDescriptionInput = document.querySelector("#eventDescription");
@@ -17,6 +24,7 @@ function addEvent() {
   }
 
   events.push({
+    id: generateEventId(),
     date: eventDate,
     description: eventDescription,
   });
@@ -24,9 +32,12 @@ function addEvent() {
   eventDateInput.value = "";
   eventDescriptionInput.value = "";
   renderEvents();
+  saveEventsToLocalStorage();
 }
-//3. Function to render all  event
-// Function to render events
+function generateEventId() {
+  return `id-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+}
+//3. Function to render all  events
 function renderEvents(filteredEvents = null) {
   // Clear the current list
   eventsList.innerHTML = "";
@@ -44,8 +55,10 @@ function renderEvents(filteredEvents = null) {
     removeButton.className = "btn btn-danger btn-sm ml-2";
     removeButton.textContent = "Remove";
     listItem.appendChild(removeButton);
+    removeButton.addEventListener("click", () => removeEvent(event.id));
   });
 }
+
 //function to generate the next seven days buttons
 function generateNextSevenDays() {
   for (let i = 0; i < 7; i++) {
@@ -56,7 +69,7 @@ function generateNextSevenDays() {
 
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "btn btn-secondary";
+    button.className = "btn btn-secondary me-1";
     button.textContent = formattedDate;
     button.addEventListener("click", (e) => filterEventsByDay(formattedDate));
     daysButtons.appendChild(button);
@@ -67,6 +80,11 @@ generateNextSevenDays();
 function filterEventsByDay(selectedDate, currentBtn) {
   const filteredEvents = events.filter((event) => event.date === selectedDate);
   renderEvents(filteredEvents);
+}
+function removeEvent(eventId) {
+  events = events.filter((event) => event.id !== eventId);
+  saveEventsToLocalStorage();
+  renderEvents();
 }
 
 showAll.addEventListener("click", () => renderEvents(events));

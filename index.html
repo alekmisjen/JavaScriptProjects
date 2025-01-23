@@ -12,7 +12,7 @@
     />
   </head>
   <body class="container mt-5">
-    <h1 class="mb-4">Calendar Event Scheduler</h1>
+    <h1 class="mb-4 text-center">Calendar Event Scheduler</h1>
 
     <!-- Add new event section -->
     <div class="row mb-4">
@@ -29,29 +29,29 @@
           <button id="addEventButton" class="btn btn-primary btn-block mt-md-4">
             Add Event
           </button>
+          <button
+            type="button"
+            class="btn btn-primary active btn-block mt-md-4"
+            id="showAllEvents"
+          >
+            Show All
+          </button>
         </div>
       </form>
     </div>
 
     <!-- Toggle buttons (Show All and Next Seven Days) -->
-    <div class="row mb-4">
+    <div class="row mb-4 text-center">
       <div class="col-md-12">
         <div class="btn-group" role="group">
-          <button
-            type="button"
-            class="btn btn-primary active"
-            id="showAllEvents"
-          >
-            Show All
-          </button>
           <!-- Next seven days buttons will be dynamically generated here -->
         </div>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row text-center">
       <!-- Scheduled events list -->
-      <div class="col-md-6">
+      <div class="col-md-6 mx-auto">
         <h4>Scheduled Events:</h4>
         <ul id="eventsList" class="list-group"></ul>
       </div>
