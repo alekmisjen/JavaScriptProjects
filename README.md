@@ -1,67 +1,45 @@
-# JavaScript Projects Repository
+# Guess My Number!
 
-This repository contains a collection of **JavaScript projects**, each residing in its own branch. These projects cover various concepts, use cases, and implementations in JavaScript, ranging from beginner-friendly tasks to more advanced applications.
+Welcome to the **Guess My Number!** game, a fun and interactive number-guessing game built with HTML, CSS, and JavaScript. This game challenges players to guess a randomly generated number within a specific range. Can you beat your high score?
 
-## Table of Contents
+## 🕹️ How to Play
 
-- [About the Repository](#about-the-repository)
-- [Project List](#project-list)
-- [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+1. The game generates a random number between **1 and 20**.
+2. Enter your guess in the input box.
+3. Click the **"Check!"** button to see if your guess is correct.
+4. Feedback will appear to help you adjust your next guess:
+   - **"Too high!"** if your guess is higher than the number.
+   - **"Too low!"** if your guess is lower than the number.
+   - **"Correct!"** when you guess the number correctly.
+5. Each incorrect guess reduces your score by 1.
+6. Click **"Again!"** to restart the game.
 
----
+## ✨ Features
 
-## About the Repository
+- **Score Tracking**: Keeps track of your current score for each game.
+- **Highscore**: Displays your best score achieved so far.
+- **Dynamic Feedback**: Provides hints to guide your guesses.
+- **Responsive Design**: Works seamlessly across devices.
 
-This repository serves as a central hub for different JavaScript projects. Each project is contained within its own branch for better organization and to allow you to explore them independently. The projects demonstrate various features of JavaScript, including DOM manipulation, APIs, algorithms, and more.
+## 📂 Project Structure
 
----
+The project consists of the following files:
 
-## Project List
+- **index.html**: The main HTML structure of the game.
+- **style.css**: The styling and layout for the game.
+- **script.js**: The JavaScript logic for the game's functionality.
 
-Below is a list of available projects. Each project resides in its own branch, and you can switch branches to explore the corresponding project:
+## 🛠️ Technologies Used
 
-1. **Main (default branch)**: Overview and setup information.
-2. **Project 1: Calendar Event Scheduler**
+- **HTML**: For the structure of the web page.
+- **CSS**: For styling and layout.
+- **JavaScript**: For interactive functionality.
 
-   - A calendar app that allows users to add, filter, and persist events.
-   - **Branch**: `calendar-event-scheduler`
+## 🚀 Getting Started
 
-3. **Project 2: To-Do List App**
+Follow these steps to run the project locally:
 
-   - A to-do list application to add, edit, mark as complete, and delete tasks.
-   - **Branch**: `todo-list-app`
-
-4. **Project 3: Weather App**
-
-   - A weather application using an external weather API to display real-time weather information.
-   - **Branch**: `weather-app`
-
-5. **Project 4: Quiz App**
-
-   - An interactive quiz application with multiple-choice questions and a scoring system.
-   - **Branch**: `quiz-app`
-
-6. **(Add more projects as needed)**
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- A modern web browser (e.g., Chrome, Firefox)
-- Basic understanding of JavaScript
-- [Git](https://git-scm.com/) installed on your system
-
-### Clone the Repository
-
-To clone this repository and explore the projects:
-
-```bash
-git clone https://github.com/alekmisjen/JavaScriptProjects.git
-cd JavaScriptProjects
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/guess-my-number.git
+   ```
