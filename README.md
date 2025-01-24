@@ -30,10 +30,10 @@ Below is a list of available projects. Each project resides in its own branch, a
    - A calendar app that allows users to add, filter, and persist events.
    - **Branch**: `calendar-event-scheduler`
 
-3. **Project 2: To-Do List App**
+3. **Project 2:Guess the number game**
 
-   - A to-do list application to add, edit, mark as complete, and delete tasks.
-   - **Branch**: `todo-list-app`
+   - A fun and interactive number-guessing game built with HTML, CSS, and JavaScript.
+   - **Branch**: `guess-my-number`
 
 4. **Project 3: Weather App**
 
