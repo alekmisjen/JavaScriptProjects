@@ -30,15 +30,15 @@ Below is a list of available projects. Each project resides in its own branch, a
    - A calendar app that allows users to add, filter, and persist events.
    - **Branch**: `calendar-event-scheduler`
 
-3. **Project 2:Guess the number game**
+3. **Project 2: Guess the number game**
 
    - A fun and interactive number-guessing game built with HTML, CSS, and JavaScript.
    - **Branch**: `guess-my-number`
 
-4. **Project 3: Weather App**
+4. **Project 3: Pig Game**
 
-   - A weather application using an external weather API to display real-time weather information.
-   - **Branch**: `weather-app`
+   - A two-player dice game where players take turns rolling a die to accumulate points.
+   - **Branch**: `pig-game`
 
 5. **Project 4: Quiz App**
 
