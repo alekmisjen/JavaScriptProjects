@@ -1,67 +1,58 @@
-# JavaScript Projects Repository
+# Dice Game
 
-This repository contains a collection of **JavaScript projects**, each residing in its own branch. These projects cover various concepts, use cases, and implementations in JavaScript, ranging from beginner-friendly tasks to more advanced applications.
+A simple two-player dice game implemented using HTML, CSS, and JavaScript.
 
-## Table of Contents
+## How to Play
 
-- [About the Repository](#about-the-repository)
-- [Project List](#project-list)
-- [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+1. The game starts with Player 1.
+2. Click the **Roll Dice** button to roll a dice:
+   - If the roll is **not 1**, the rolled number is added to the current player's score.
+   - If the roll is **1**, the turn switches to the other player without adding to the score.
+3. Click the **Hold** button to save the current score to the player's total score and switch turns.
+4. The first player to reach **100 points** wins the game.
+5. Click the **New Game** button to reset and start a new game.
 
----
+## Features
 
-## About the Repository
+- Dynamic turn switching between two players.
+- Rolling a 1 causes the turn to switch.
+- Players can hold their score to accumulate points.
+- The game announces the winner when a player reaches 100 points.
+- Reset functionality to start a new game.
 
-This repository serves as a central hub for different JavaScript projects. Each project is contained within its own branch for better organization and to allow you to explore them independently. The projects demonstrate various features of JavaScript, including DOM manipulation, APIs, algorithms, and more.
+## Technologies Used
 
----
+- HTML
+- CSS
+- JavaScript (DOM Manipulation)
 
-## Project List
+## Setup Instructions
 
-Below is a list of available projects. Each project resides in its own branch, and you can switch branches to explore the corresponding project:
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/dice-game.git
+   ```
+2. Open the `index.html` file in a browser to play the game.
 
-1. **Main (default branch)**: Overview and setup information.
-2. **Project 1: Calendar Event Scheduler**
+## File Structure
 
-   - A calendar app that allows users to add, filter, and persist events.
-   - **Branch**: `calendar-event-scheduler`
-
-3. **Project 2: Guess the number game**
-
-   - A fun and interactive number-guessing game built with HTML, CSS, and JavaScript.
-   - **Branch**: `guess-my-number`
-
-4. **Project 3: Pig Game**
-
-   - A two-player dice game where players take turns rolling a die to accumulate points.
-   - **Branch**: `pig-game`
-
-5. **Project 4: Quiz App**
-
-   - An interactive quiz application with multiple-choice questions and a scoring system.
-   - **Branch**: `quiz-app`
-
-6. **(Add more projects as needed)**
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- A modern web browser (e.g., Chrome, Firefox)
-- Basic understanding of JavaScript
-- [Git](https://git-scm.com/) installed on your system
-
-### Clone the Repository
-
-To clone this repository and explore the projects:
-
-```bash
-git clone https://github.com/alekmisjen/JavaScriptProjects.git
-cd JavaScriptProjects
 ```
+📂 dice-game
+├── 📄 index.html  # Main HTML file
+├── 📄 style.css   # CSS styles
+├── 📄 script.js   # JavaScript logic
+└── 📂 images      # Dice images
+```
+
+## Screenshots
+
+![Game Screenshot](images/screenshot.png)
+
+## License
+
+This project is open-source and available under the MIT License.
+
+---
+
+**Author:** Your Name  
+**GitHub:** [your-username](https://github.com/your-username)
