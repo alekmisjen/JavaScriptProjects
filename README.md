@@ -1,67 +1,68 @@
-# JavaScript Projects Repository
+# Bankist App
 
-This repository contains a collection of **JavaScript projects**, each residing in its own branch. These projects cover various concepts, use cases, and implementations in JavaScript, ranging from beginner-friendly tasks to more advanced applications.
+A simple banking application built with **HTML, CSS, and JavaScript**, allowing users to manage their finances, make transfers, request loans, and view transaction history.
 
-## Table of Contents
+## Features
 
-- [About the Repository](#about-the-repository)
-- [Project List](#project-list)
-- [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+- **User Authentication:** Users can log in using their username and PIN.
+- **Transaction History:** Displays deposits and withdrawals with formatted dates.
+- **Balance Overview:** Shows account balance, total income, expenses, and interest.
+- **Money Transfer:** Allows transfers to other users within the app.
+- **Loan Request:** Users can request loans based on deposit history.
+- **Account Closure:** Users can delete their accounts securely.
+- **Sorting Transactions:** Sort transactions in ascending or descending order.
+- **Auto Logout:** A timer logs users out after 5 minutes of inactivity.
+- **Currency & Date Formatting:** Transactions are formatted based on locale and currency settings.
 
----
+## Technologies Used
 
-## About the Repository
-
-This repository serves as a central hub for different JavaScript projects. Each project is contained within its own branch for better organization and to allow you to explore them independently. The projects demonstrate various features of JavaScript, including DOM manipulation, APIs, algorithms, and more.
-
----
-
-## Project List
-
-Below is a list of available projects. Each project resides in its own branch, and you can switch branches to explore the corresponding project:
-
-1. **Main (default branch)**: Overview and setup information.
-2. **Project 1: Calendar Event Scheduler**
-
-   - A calendar app that allows users to add, filter, and persist events.
-   - **Branch**: `calendar-event-scheduler`
-
-3. **Project 2:Guess the number game**
-
-   - A fun and interactive number-guessing game built with HTML, CSS, and JavaScript.
-   - **Branch**: `guess-my-number`
-
-4. **Project 3: Weather App**
-
-   - A weather application using an external weather API to display real-time weather information.
-   - **Branch**: `weather-app`
-
-5. **Project 4: Quiz App**
-
-   - An interactive quiz application with multiple-choice questions and a scoring system.
-   - **Branch**: `quiz-app`
-
-6. **(Add more projects as needed)**
-
----
+- **HTML** – Structuring the web app.
+- **CSS** – Styling and responsive design.
+- **JavaScript (ES6+)** – Dynamic interactions and logic.
+- **Intl API** – Formatting dates and currency.
 
 ## Getting Started
 
-### Prerequisites
+### 1. Clone the Repository
 
-- A modern web browser (e.g., Chrome, Firefox)
-- Basic understanding of JavaScript
-- [Git](https://git-scm.com/) installed on your system
+```sh
+ git clonehttps://github.com/alekmisjen/JavaScriptProjects.git
+```
 
-### Clone the Repository
+### 2. Navigate to the Project Directory
 
-To clone this repository and explore the projects:
-
-```bash
-git clone https://github.com/alekmisjen/JavaScriptProjects.git
+```sh
 cd JavaScriptProjects
 ```
+
+### 3. Open `index.html`
+
+Simply open the `index.html` file in your browser to start using the app.
+
+## How to Use
+
+### User Login
+
+- Enter the **username** and **PIN** of an available account.
+- Example accounts:
+  - (Username: `js`, PIN: `1111`)
+  - (Username: `jd`, PIN: `2222`)
+  - (Username: `stw`, PIN: `3333`)
+  - (Username: `ss`, PIN: `4444`)
+
+### Performing Transactions
+
+- **Transfer Money:** Enter recipient's username and amount to transfer.
+- **Request Loan:** Input a loan amount (eligible if deposits cover 10% of the requested amount).
+- **Sort Transactions:** Click the "Sort" button to reorder transactions.
+- **Close Account:** Enter your username and PIN to delete your account.
+
+## Future Enhancements
+
+- Multi-user support with database storage.
+- Improved error handling and validation.
+- Additional transaction categories and insights.
+
+---
+
+Enjoy using **Bankist App**! 🚀
