@@ -30,7 +30,7 @@ A simple two-player dice game implemented using HTML, CSS, and JavaScript.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/dice-game.git
+   git clone https://github.com/alekmisjen/JavaScriptProjects.git
    ```
 2. Open the `index.html` file in a browser to play the game.
 
@@ -51,8 +51,3 @@ A simple two-player dice game implemented using HTML, CSS, and JavaScript.
 ## License
 
 This project is open-source and available under the MIT License.
-
----
-
-**Author:** Your Name  
-**GitHub:** [your-username](https://github.com/your-username)
