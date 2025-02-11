@@ -35,15 +35,16 @@ Below is a list of available projects. Each project resides in its own branch, a
    - A fun and interactive number-guessing game built with HTML, CSS, and JavaScript.
    - **Branch**: `guess-my-number`
 
-4. **Project 3: Weather App**
+4. **Project 3: Gig game**
 
    - A weather application using an external weather API to display real-time weather information.
    - **Branch**: `weather-app`
 
-5. **Project 4: Quiz App**
+5. **Project 4: Bankist-app**
 
-   - An interactive quiz application with multiple-choice questions and a scoring system.
-   - **Branch**: `quiz-app`
+   -A simple banking application allowing users to manage their finances, make transfers, request loans, and view transaction history.
+
+   - **Branch**: `bankist-app`
 
 6. **(Add more projects as needed)**
 
