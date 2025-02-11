@@ -35,10 +35,11 @@ Below is a list of available projects. Each project resides in its own branch, a
    - A fun and interactive number-guessing game built with HTML, CSS, and JavaScript.
    - **Branch**: `guess-my-number`
 
-4. **Project 3: Gig game**
+4. **Project 3: Dice game**
 
-   - A weather application using an external weather API to display real-time weather information.
-   - **Branch**: `weather-app`
+   -A simple two-player dice game.
+
+   - **Branch**: `pig-game`
 
 5. **Project 4: Bankist-app**
 
