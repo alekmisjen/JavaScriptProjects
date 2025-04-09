@@ -1,6 +1,6 @@
 # 🏋️ Workout Tracker App
 
-An interactive web app to log your running and cycling workouts using geolocation and map markers. Built with vanilla JavaScript and Leaflet.js.
+An interactive web app to log your running and cycling workouts using geolocation and map markers. Built with vanilla JavaScript and Leaflet.js. Learning project from udemy.com
 
 ## 🚀 Features
 
